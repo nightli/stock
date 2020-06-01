@@ -1,0 +1,30 @@
+jwttest:
+    jwtExpiration: 172800
+    secret: 5oiR6KaB6LW35p2l5ZCD5pep6aSQ
+mybatis-plus:
+    configuration:
+        log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+server:
+    port: 8110
+spring:
+    application:
+        name: stock-web
+datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+        connection-test-query: SELECT 1
+        connection-timeout: 60000
+        idle-timeout: 500000
+        max-lifetime: 540000
+        maximum-pool-size: 12
+        minimum-idle: 10
+        pool-name: GuliHikariPool
+    password: ljx123
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/lib_sys?characterEncoding=utf-8&useSSL=false
+    username: root
+jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+profiles:
+  active: dev
