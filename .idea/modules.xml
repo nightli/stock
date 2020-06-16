@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/stock.iml" filepath="$PROJECT_DIR$/stock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-parent/stock-common/stock-common.iml" filepath="$PROJECT_DIR$/stock-parent/stock-common/stock-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-parent/stock-dto/stock-dto.iml" filepath="$PROJECT_DIR$/stock-parent/stock-dto/stock-dto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-parent/stock-parent.iml" filepath="$PROJECT_DIR$/stock-parent/stock-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-parent/stock-spider/stock-spider.iml" filepath="$PROJECT_DIR$/stock-parent/stock-spider/stock-spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stock-parent/stock-web/stock-web.iml" filepath="$PROJECT_DIR$/stock-parent/stock-web/stock-web.iml" />
+    </modules>
+  </component>
+</project>
