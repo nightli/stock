@@ -6,6 +6,7 @@
         <module>stock-web</module>
         <module>stock-common</module>
         <module>stock-dto</module>
+        <module>stock-spider</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -13,8 +14,8 @@
         <version>2.0.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.lib</groupId>
-    <artifactId>lib-framework-parent</artifactId>
+    <groupId>stock.test</groupId>
+    <artifactId>stock-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>lib-framework-parent</name>
